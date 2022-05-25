@@ -20,6 +20,7 @@ conectaDB();
 // let port = config.API_PORT || 8080;
 // app.set('port', port);
 app.set('port', config.PORT || 4000);
+console.log(`API running on port ${app.get('port')}`);
 
 // Configure CORS
 const whiteList = [config.FRONTEND_URL];
