@@ -10,6 +10,7 @@ export default {
 	API_PROTOCOLO: process.env.API_PROTOCOLO || 'http',
 	API_HOST: process.env.API_HOST || 'localhost',
 	API_PORT: process.env.API_PORT || 8080,
+	PORT: process.env.PORT || 4000,
 	API_PATH: process.env.API_PATH || '/api/v1',
 	API_URL: process.env.API_URL || 'http://localhost:4000/api/v1',
 	JWT_SECRET: process.env.JWT_SECRET || 'SecretKey',
