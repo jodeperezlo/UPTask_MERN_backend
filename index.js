@@ -2,7 +2,7 @@ import app from './app.js';
 import config from './config/config.js';
 
 const servidor = app.listen(app.get('port'));
-console.log(app.get('INDEX port'));
+
 // Socket.io
 import { Server } from 'socket.io';
 const io = new Server(servidor, {
