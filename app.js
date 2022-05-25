@@ -17,7 +17,7 @@ const app = express();
 conectaDB();
 
 // Settings
-app.set('port', config.API_PORT);
+app.set('port', config.API_PORT || 4000);
 
 // Configure CORS
 const whiteList = [config.FRONTEND_URL];
