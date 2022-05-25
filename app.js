@@ -10,6 +10,10 @@ import conectaDB from './config/db.js';
 // Import Routes
 import routerAPI from './api/v1/routes/index.js';
 
+// Verify Email
+import { verifyTransporterEmail } from './api/v1/helpers/email.js';
+verifyTransporterEmail();
+
 // Create Express App
 const app = express();
 

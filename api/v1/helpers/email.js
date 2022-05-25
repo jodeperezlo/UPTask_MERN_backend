@@ -4,12 +4,27 @@ import config from '../../../config/config.js';
 const transporter = nodemailer.createTransport({
 	host: config.EMAIL_HOST,
 	port: config.EMAIL_PORT,
-	secure: false,
+	secure: true,
 	auth: {
 		user: config.EMAIL_USER,
 		pass: config.EMAIL_PASS,
 	},
+	tls: {
+		// do not fail on invalid certs
+		rejectUnauthorized: false,
+	},
 });
+
+// verify connection configuration
+export const verifyTransporterEmail = () => {
+	transporter.verify(function (error, success) {
+		if (error) {
+			console.log(error);
+		} else {
+			console.log('Server is ready to send messages.');
+		}
+	});
+};
 
 export const sendEmailRegister = (data) => {
 	const { email, username, token } = data;
