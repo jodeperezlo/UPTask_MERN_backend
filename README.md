@@ -12,7 +12,7 @@ Once inside the application, you can create new projects, for each project you c
 
 Being a 100% functional project, it has thought of everything, and it has sockets so that when a task is completed, added, deleted or modified, the change appears **in real time** to **all connected users** .
 
-The application is quite complete, in this repository you can find the frontend created with ReactJS, TailwindCSS, Axios, among other tools. If you want to access the backend of this application, you can find it at the following link: [Frontend UpTask MERN](https://github.com/jodeperezlo/UpTask_MERN_frontend).
+The application is quite complete, in this repository you can find the frontend created with ReactJS, TailwindCSS, Axios, among other tools. If you want to access the frontend of this application, you can find it at the following link: [Frontend UpTask MERN](https://github.com/jodeperezlo/UpTask_MERN_frontend).
 
 The application is working in the following link: [UpTask MERN](https://jorgeperez-uptask.netlify.app/).
 
@@ -38,7 +38,7 @@ Una vez dentro de la aplicación, puedes crear nuevos proyectos, por cada proyec
 
 Por ser un proyecto 100% funcional, está pensado en todo, y cuenta con sockets para que cuando una tarea sea completada, agregada, eliminada o modificada, aparezca **en tiempo real** el cambio a **todos los usuarios conectados**.
 
-La aplicación está bastante completa, en este repositorio puedes encontrar el frontend creado con ReactJS, TailwindCSS, Axios, entre otras herramientas. Si deseas acceder al backend de esta aplicación, se encuentra en el siguiente enlace: [Frontend UpTask MERN](https://github.com/jodeperezlo/UpTask_MERN_frontend).
+La aplicación está bastante completa, en este repositorio puedes encontrar el frontend creado con ReactJS, TailwindCSS, Axios, entre otras herramientas. Si deseas acceder al frontend de esta aplicación, se encuentra en el siguiente enlace: [Frontend UpTask MERN](https://github.com/jodeperezlo/UpTask_MERN_frontend).
 
 La aplicación se encuentra funcionando en el siguiente enlace: [UpTask MERN](https://jorgeperez-uptask.netlify.app/).
 
