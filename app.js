@@ -24,18 +24,18 @@ conectaDB();
 app.set('port', config.PORT || 4000);
 
 // Configure CORS
-// const whiteList = [config.FRONTEND_URL];
-// const corsOptions = {
-// 	origin: (origin, callback) => {
-// 		if (whiteList.includes(origin)) {
-// 			callback(null, true);
-// 		} else {
-// 			callback(new Error('Acceso no permitido por CORS'));
-// 		}
-// 	},
-// 	credentials: true,
-// };
-// app.use(cors(corsOptions));
+const whiteList = [config.FRONTEND_URL];
+const corsOptions = {
+	origin: (origin, callback) => {
+		if (whiteList.includes(origin)) {
+			callback(null, true);
+		} else {
+			callback(new Error('Acceso no permitido por CORS'));
+		}
+	},
+	credentials: true,
+};
+app.use(cors(corsOptions));
 
 // Middlewares
 app.use(morgan('dev'));
